@@ -26,9 +26,8 @@ const Education = () => {
             Education <br /> <span className="text-black">Qualifications</span>
           </h1>
           <p className="py-5 text-gray-700 bg-green-100 px-5 rounded-xl my-7 shadow-xl">
-            "Elevate Your <span className="text-blue-600">Future</span>:
-            Empowering Minds, Unlocking Potential, and Building Brighter
-            Tomorrows with Our Qualifications and Education Excellence."
+            "My qualifications and skills are my assets. They reflect my hard work, dedication, and passion. They enable me to achieve my goals and make a difference.
+            "
           </p>
         </div>
 
