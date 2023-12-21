@@ -50,13 +50,13 @@ const Education = () => {
               <tbody>
                 {educationData.map((data, index) => (
                   <tr key={index}>
-                    <td className="border-b-2 p-3 text-lg font-normal">
+                    <td className="border-b-2 p-3 text-lg font-normal text-blue-800">
                       {data.qualification}
                     </td>
-                    <td className=" border-b-2 p-3 text-lg font-normal">
+                    <td className=" border-b-2 p-3 text-lg font-normal text-red-500">
                       {data.board}
                     </td>
-                    <td className=" border-b-2 p-3 text-lg font-normal">
+                    <td className=" border-b-2 p-3 text-lg font-normal text-green-800">
                       {data.percentage}
                     </td>
                   </tr>

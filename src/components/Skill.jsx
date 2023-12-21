@@ -12,7 +12,6 @@ import bootstrap from "../logo/bootstrap.png";
 import tailwindcss from "../logo/tailwindcss.png";
 import github from "../logo/github.png";
 import git from "../logo/git.png";
-import python from "../logo/python.png";
 import mongodb from "../logo/mongodb.png";
 import firebase from "../logo/firebase.png";
 import mysql from "../logo/mysql.png";
@@ -21,7 +20,7 @@ import c from "../logo/c.png";
 import cplus from "../logo/cplus.png";
 
 const Skill = () => {
-  const iconStyles= "text-blue-600 text-xl";
+  const iconStyles = "text-blue-600 text-xl";
 
   const skills = [
     {
@@ -80,28 +79,23 @@ const Skill = () => {
       logo: git,
     },
     {
-      name: "Python",
-      level: "Medium",
-      logo: python,
-    },
-    {
       name: "MongoDB",
-      level: "Medium",
+      level: "Basic",
       logo: mongodb,
     },
     {
       name: "Firebase",
-      level: "Medium",
+      level: "Basic",
       logo: firebase,
     },
     {
       name: "My SQL",
-      level: "Medium",
+      level: "Basic",
       logo: mysql,
     },
     {
       name: "Node Js",
-      level: "Medium",
+      level: "Basic",
       logo: nodejs,
     },
     {
@@ -137,7 +131,7 @@ const Skill = () => {
           >
             <img src={data.logo} alt="" className=" w-28 md:w-32 px-2 py-3" />
             <h1 className="text-sm font-semibold flex flex-row gap-2 justify-center">
-              {data.name} <span className=""><MdVerified className={iconStyles}/></span>
+              {data.name} <span className=""><MdVerified className={iconStyles} /></span>
             </h1>
             <p className="text-sm text-gray-600 font-semibold">{data.level}</p>
           </div>
